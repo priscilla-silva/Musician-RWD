@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.logo {
+    font-family: 'Actor', sans-serif;
+    font-size: 24px;
+    padding-top: 20px;
+    
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-left: 100px;  
+
+
+}
+
+li {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 320px;
+
+}
+
+.card_info {
+    margin-top: -20px;
+}
+
+
+h1 {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 22px;  
+    
+}
+
+img {
+    padding-left: 30px;
+    margin-top: -20px;
+
+}
