@@ -1,66 +1,99 @@
-body {
-    background-color: black;
-    color: white;
-    font-family: 'Source Sans Pro', sans-serif;
-    margin-left: 50px;
-    padding-top: 20px;
-    padding-bottom: 0px;
-}
+@media screen and (min-width: 1024px ) and (max-width: 2000px) {
 
-header {
-    display: flex;
-    justify-content: flex-start;
+    body {
+        background-color: black;
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-left: 50px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
+    
+    header {
+        display: flex;
+        justify-content: flex-start;
+        
+    }
+    
+    .logo {
+        font-family: 'Actor', sans-serif;
+        font-size: 24px;
+        padding-top: 20px;
+        
+    }
+    
+    
+    ul {
+        list-style: none;
+        display: flex;
+        padding-left: 100px;  
+    
+    
+    }
+    
+    li {
+        padding: 10px;
+        font-size: 16px;
+    }
+    
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        min-height: 320px;
+    
+    }
+
+    @media screen and (min-width: 1920px) {
+        .card {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        img {
+            margin-left: 80px;
+            
+        
+        }
+
+    }
+
+
+    
+    .card_info {
+        margin-top: -20px;
+    }
+    
+    
+    h1 {
+    
+        font-family: 'Poppins', sans-serif;
+        font-size: 64px;
+    }
+    
+    h2 {
+        font-size: 18px;  
+        
+    }
+    
+    img {
+        padding-left: 30px;
+        margin-top: -20px;
+    
+    }
     
 }
 
-.logo {
-    font-family: 'Actor', sans-serif;
-    font-size: 24px;
-    padding-top: 20px;
-    
-}
-
-
-ul {
-    list-style: none;
-    display: flex;
-    padding-left: 100px;  
-
+@media screen and (min-width: 320px ) and (max-width:768px) {
+    .card {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
 }
 
-li {
-    padding: 10px;
-    font-size: 16px;
-}
-
-.card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 100%;
-    min-height: 320px;
-
-}
-
-.card_info {
-    margin-top: -20px;
-}
 
 
-h1 {
-
-    font-family: 'Poppins', sans-serif;
-    font-size: 64px;
-}
-
-h2 {
-    font-size: 22px;  
-    
-}
-
-img {
-    padding-left: 30px;
-    margin-top: -20px;
-
-}
